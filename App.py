@@ -58,12 +58,15 @@ def displayImage(Val, file, dir_name):
 #     else:
 #         val = val - 1
 
-def move_forward(val, filename):
-    val = val + 1
-    if val == len(filename):
-        val = 0
-    return val
+# def move_forward(val, filename):
+#     val = val + 1
+#     if val == len(filename):
+#         val = 0
+#     return val
+#
+# if st.button('Next', on_click=move_forward, args=([val, filename])):
+#     displayImage(val, filename, dir)
 
-if st.button('Next', on_click=move_forward, args=([val, filename])):
-    displayImage(val, filename, dir)
-
+st.subheader("Displaying Video")
+video_file = open("D:\Projects\Streamlit\media\star.mp4", mode='rb').read()
+st.video(video_file)
