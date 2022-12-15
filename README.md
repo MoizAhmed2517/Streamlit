@@ -1,1 +1,1 @@
-Learning Streamlit for making project accessible to everyone in a visualize manner
+**Learning Streamlit for making project accessible to everyone in a visualized manner**
